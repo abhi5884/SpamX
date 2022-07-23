@@ -1,10 +1,10 @@
-GRP = "@DNHxHELL|@RiZoeLXSpam|@ArrayCoreChats|DNHxHELL|RiZoeLXSpam|ArrayCoreChats"
+GRP = "@NeuroticBots|@NeuroticBotSupport|@StudiuzNetwork|StudiuzGroup"
 
-GROUP = [-1001321613309, -1001749467927, -1001511742995, -1001771478102, -1001162160257]
+GROUP = [-1001463393457, -1001469905069, -1001458314377, -1001676688903]
 
-RiZoeLX = [1517994352, 2086101519, 1789859817, 5176432397]
+RiZoeLX = [1549789242, 5498338148, 1269029257]
 
-Owners = "@TheRiZoeL|@TheVenomxd|RiZoeL"
+Owners = "@Chankit|@ChankitSaini"
 
 REPLYRAID = [
     "𝙈𝘼𝘿𝘼𝙍𝘾𝙃𝙊𝘿",
