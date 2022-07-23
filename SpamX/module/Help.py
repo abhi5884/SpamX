@@ -1,10 +1,3 @@
-# RiZoeL X - Telegram Projects
-# (c) 2022 - 2023 RiZoeL
-# Don't Kang Bitch -!
-
-
-
-
 import os
 import sys
 from random import choice
@@ -18,9 +11,9 @@ from SpamX.data import *
 @Client.on_message(filters.user(SUDO_USERS) & filters.command(["help"], prefixes=HNDLR))
 @Client.on_message(filters.me & filters.command(["help"], prefixes=HNDLR))
 async def help(_, e: Message):
-        RiZoeL = e.text.split(" ")
-        if len(RiZoeL) > 1:
-            helping = RiZoeL[1]
+        Neurotic = e.text.split(" ")
+        if len(Neurotic) > 1:
+            helping = Neurotic[1]
             if helping.lower() == "spam":
                 await e.reply(spam_help)
             elif helping.lower() == "dm":
@@ -54,7 +47,7 @@ syntax:
 syntax:
  {hl}fspam (count) (message to spam)
  
-**Note:** Fast Spam Is Harmful for IDs Don't Blame to @RiZoeLX If IDs Get ban -!
+**Note:** Fast Spam Is Harmful for IDs Don't Blame to @NeuroticAssociation If IDs Get ban -!
 
 
 **pornspam**: Porn Spam for given counter.
@@ -70,7 +63,7 @@ syntax:
 {hl}hang (counts)
 
 
-**© @RiZoeLX**
+**© @NeuroticAssociation**
 """
 
 
@@ -89,7 +82,7 @@ command:
 command:
   {hl}dmraid (count) (username or user id)
 
-**© @RiZoeLX**
+**© @NeuroticAssociation**
 """
 
 
@@ -101,7 +94,7 @@ Syntax:
   {hl}join private/public Chat invite link or username
 
 
-**© @RiZoeLX
+**© @NeuroticAssociation
 """
 
 leave_help = f"""
@@ -112,7 +105,7 @@ syntax:
 i) {hl}leave group Username or chat user id
 ii) {hl}leave
 
-**© @RiZoeLX**
+**© @NeuroticAssociation**
 """
 
 userbot_help = f"""
@@ -124,7 +117,7 @@ userbot_help = f"""
 
 - {hl}restart : To Restart Your Spam Bots
 
-**© @RiZoeLX**
+**© @NeuroticAssociation**
 """
 
 
@@ -139,7 +132,7 @@ commands:
 2) {hl}setbio (coustom Bio)
 3) {hl}setpic (reply to media)
 
-**© @RiZoeLX **
+**© @NeuroticAssociation **
 """
 
 help_menu = f"""
@@ -157,5 +150,5 @@ help_menu = f"""
 **Type** {hl}help (category) **to get all syntax in that category and its usage**
 **Example**: `{hl}help spam`
 
-**© @RiZoeLX**
+**© @NeuroticAssociation**
 """

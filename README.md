@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="SpamX/RiZoeLX.png" alt="RiZoeLXSpam Logo">
+  <img src="SpamX/NeuroticX.png" alt="NeuroticXSpam Logo">
 </p>
 <h1 align="center">
   <b>• SᴘᴀᴍX •</b>
@@ -27,11 +27,11 @@
 > The easy way to host this bot, deploy to Heroku 
 <br>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/RiZoeLX/SpamX)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/NeuroticX/SpamX)
 
 <h4> Local Hosting </h4>
 
-<i> First Fork The [Repo](https://github.com/RiZoeLX/SpamX) </i>
+<i> First Fork The [Repo](https://github.com/NeuroticX/SpamX) </i>
 <br>
 <i> Now Rename semple.env as .env And Fill Your Values </i>
 
@@ -61,7 +61,7 @@
 
 <h3 align="center"> Support: </h3>
 
-  * <i> Channel </i>: [@RiZoeLX](https://t.me/RiZoeLX) <br>
+  * <i> Channel </i>: [@NeuroticAssociation](https://t.me/NeuroticX) <br>
   * <i> Support </i>: [@DNHxHELL](https://t.me/DNHxHELL)
 
 ----

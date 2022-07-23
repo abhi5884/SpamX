@@ -1,9 +1,3 @@
-# RiZoeL X - Telegram Projects
-# (c) 2022 - 2023 RiZoeL
-# Don't Kang Bitch -!
-
-
-
 import os
 import sys
 from random import choice
@@ -34,14 +28,14 @@ async def setpic(xspam: Client, e: Message):
              print(a)
              pass
       
-etc_bio = "ᴜsᴇʀ ᴏғ ʀɪᴢᴏᴇʟ x sᴘᴀᴍ"
+etc_bio = "hehe"
 
 @Client.on_message(filters.user(OWNER_ID) & filters.command(["setname"], prefixes=HNDLR))
 @Client.on_message(filters.me & filters.command(["setname"], prefixes=HNDLR))
 async def setname(xspam: Client, e: Message): 
-      Rizoel = "".join(e.text.split(maxsplit=1)[1:]).split(" ", 2)
-      if len(Rizoel) == 1:
-          name = str(Rizoel[0])
+      chankit = "".join(e.text.split(maxsplit=1)[1:]).split(" ", 2)
+      if len(chankit) == 1:
+          name = str(chankit[0])
           try:
             await xspam.update_profile(first_name=name, bio=etc_bio)
             await e.reply_text(f"**Profile Name Changed Successfully !!** \n\n **New Name:** {name}")
@@ -60,9 +54,9 @@ async def setname(xspam: Client, e: Message):
 @Client.on_message(filters.user(OWNER_ID) & filters.command(["setbio"], prefixes=HNDLR))
 @Client.on_message(filters.me & filters.command(["setbio"], prefixes=HNDLR))
 async def setbio(xspam: Client, e: Message):
-      Rizoel = "".join(e.text.split(maxsplit=1)[1:]).split(" ", 2)
-      if len(Rizoel) == 1:
-          xd = str(Rizoel[0])
+      chankit = "".join(e.text.split(maxsplit=1)[1:]).split(" ", 2)
+      if len(chankit) == 1:
+          xd = str(chankit[0])
           ok = await xspam.get_me()
           nam = ok.first_name
           nam2 = ok.last_name

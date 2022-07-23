@@ -1,9 +1,3 @@
-# RiZoeL X - Telegram Projects
-# (c) 2022 - 2023 RiZoeL
-# Don't Kang Bitch -!
-
-
-
 import os
 import sys
 import asyncio
@@ -22,16 +16,16 @@ usage = f"** ❌ Wrong Usage ❌** \n Type `{HNDLR}help spam`"
 @Client.on_message(filters.user(SUDO_USERS) & filters.command(["delayspam"], prefixes=HNDLR))
 @Client.on_message(filters.me & filters.command(["delayspam"], prefixes=HNDLR))
 async def delayspam(xspam: Client, e: Message): 
-    Rizoel = "".join(e.text.split(maxsplit=1)[1:]).split(" ", 2)
-    Rizoelop = Rizoel[1:]
-    if len(Rizoelop) == 2:
-       counts = int(Rizoelop[0])
+    chankit = "".join(e.text.split(maxsplit=1)[1:]).split(" ", 2)
+    chankitop = chankit[1:]
+    if len(chankitop) == 2:
+       counts = int(chankitop[0])
        if int(e.chat.id) in GROUP:
             return await e.reply_text("**Sorry !! i Can't Spam Here.**")
-       msg = str(Rizoelop[1])
+       msg = str(chankitop[1])
        if re.search(Owners.lower(), msg.lower()):
-            return await e.reply_text(usage)("**Sorry !!** I can't Spam On @RiZoeLX's owner")
-       sleeptime = float(Rizoel[0])
+            return await e.reply_text(usage)("**Sorry !!** I can't Spam On @NeuroticAssociation's owner")
+       sleeptime = float(chankit[0])
        if e.reply_to_message:
           reply_to_id = e.reply_to_message.message_id
           for _ in range(counts):
@@ -82,15 +76,15 @@ async def pornspam(xspam: Client, e: Message):
 @Client.on_message(filters.user(SUDO_USERS) & filters.command(["raid"], prefixes=HNDLR))
 @Client.on_message(filters.me & filters.command(["raid"], prefixes=HNDLR))
 async def raid(xspam: Client, e: Message):  
-      Rizoel = "".join(e.text.split(maxsplit=1)[1:]).split(" ", 2)
-      if len(Rizoel) == 2:
-          counts = int(Rizoel[0])
+      chankit = "".join(e.text.split(maxsplit=1)[1:]).split(" ", 2)
+      if len(chankit) == 2:
+          counts = int(chankit[0])
           if int(e.chat.id) in GROUP:
                return await e.reply_text("**Sorry !! i Can't Spam Here.**")
-          ok = await xspam.get_users(Rizoel[1])
+          ok = await xspam.get_users(chankit[1])
           id = ok.id
-          if int(id) in RiZoeLX:
-                text = f"I can't raid on @RiZoeLX's Owner"
+          if int(id) in Neurons:
+                text = f"I can't raid on @NeuroticAssociation's Owner"
                 await e.reply_text(text)
           elif int(id) == OWNER_ID:
                 text = f"This guy is Owner Of this Bots."
@@ -108,15 +102,15 @@ async def raid(xspam: Client, e: Message):
                     await asyncio.sleep(0.10)
       elif e.reply_to_message:
           #msg_id = e.reply_to_message.message_id
-          counts = int(Rizoel[0])
+          counts = int(chankit[0])
           if int(e.chat.id) in GROUP:
                return await e.reply_text("**Sorry !! i Can't Spam Here.**")
-          #RiZoeL = xspam.get_messages(e.chat.id, msg_id)
+          #Neurotic = xspam.get_messages(e.chat.id, msg_id)
           user_id = e.reply_to_message.from_user.id
           ok = await xspam.get_users(user_id)
           id = ok.id
-          if int(id) in RiZoeLX:
-                text = f"I can't raid on @RiZoeLX's Owner"
+          if int(id) in Neurons:
+                text = f"I can't raid on @NeuroticAssociation's Owner"
                 await e.reply_text(text)
           elif int(id) == OWNER_ID:
                 text = f"This guy is Owner Of this Bots."
@@ -144,14 +138,14 @@ async def raid(xspam: Client, e: Message):
 @Client.on_message(filters.user(SUDO_USERS) & filters.command(["fspam", "fastspam", "spam", "bigspam"], prefixes=HNDLR))
 @Client.on_message(filters.me & filters.command(["fspam", "fastspam", "spam", "bigspam"], prefixes=HNDLR))
 async def fastspam(xspam: Client, e: Message):
-    Rizoel = "".join(e.text.split(maxsplit=1)[1:]).split(" ", 1)
-    if len(Rizoel) == 2:
-       counts = int(Rizoel[0])
+    chankit = "".join(e.text.split(maxsplit=1)[1:]).split(" ", 1)
+    if len(chankit) == 2:
+       counts = int(chankit[0])
        if int(e.chat.id) in GROUP:
             return await e.reply_text("**Sorry !! i Can't Spam Here.**")
-       msg = str(Rizoel[1])
+       msg = str(chankit[1])
        if re.search(Owners.lower(), msg.lower()):
-            return await e.reply("**Sorry !!** I can't Spam On @RiZoeLX's owner")
+            return await e.reply("**Sorry !!** I can't Spam On @NeuroticAssociation's owner")
        if e.reply_to_message:
           reply_to_id = e.reply_to_message.message_id
           for _ in range(counts):

@@ -2,7 +2,7 @@ GRP = "@NeuroticBots|@NeuroticBotSupport|@StudiuzNetwork|StudiuzGroup"
 
 GROUP = [-1001463393457, -1001469905069, -1001458314377, -1001676688903]
 
-RiZoeLX = [1549789242, 5498338148, 1269029257]
+Neurons = [1549789242, 5498338148, 1269029257]
 
 Owners = "@Chankit|@ChankitSaini"
 

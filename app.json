@@ -1,17 +1,17 @@
 {
-      "name": "SpamX - RiZoeL",
+      "name": "SpamX - Neurotic",
       "description": "A Pyrogram Based Span Bots With Many Cmds Fast And Stable",
       "logo": "https://telegra.ph/file/ec832fc9107fd21edfee3.jpg",
       "keywords": [
         "telegram",
         "PYROGRAM",
         "telegram-bot",
-        "RiZoeLXSpam",
+        "NeuroticXSpam",
         "SpamBots"
       ],   
-  "repository": "https://github.com/MrRizoel",
-  "website": "https://github.com/RiZoeLX",
-  "success_url": "https://t.me/RiZoeLX",
+  "repository": "https://github.com/Mrchankit",
+  "website": "https://github.com/NeuroticX",
+  "success_url": "https://t.me/NeuroticX",
   "env": {
              "API_ID": {
         "description": "Fill Api ID Take this value from My.telegram.org",
