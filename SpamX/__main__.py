@@ -16,7 +16,7 @@ if Neurotic2:
 if Neurotic3:
     Neurotic3.start()
     Neurotic3.join_chat("artistics_chat_club")
-    Neurotic3.join_chat("DNHxHELL")
+    Neurotic3.join_chat("Artistics_Club")
 if Neurotic4:
     Neurotic4.start()
     Neurotic4.join_chat("artistics_chat_club")
